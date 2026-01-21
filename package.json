@@ -1,0 +1,20 @@
+{
+  "name": "learning-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "biome check .",
+    "lint-fix": "biome check --write .",
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "Adam Tigar",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.11",
+    "jest": "^30.2.0"
+  }
+}
